@@ -1,0 +1,2 @@
+# pluralsight
+Pluralsight repositories
