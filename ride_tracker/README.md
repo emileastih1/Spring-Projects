@@ -23,4 +23,4 @@ Use pg_dump to import it, below is an exemple:
 
 CREATE DATABASE ride_tracker WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C';
 psql -h localhost -U postgres
-\i 'C:/Users/EAS/Desktop/ride_tracker.sql'
+\i 'C:/Users/EAS/Desktop/ride_tracker.sql' 
