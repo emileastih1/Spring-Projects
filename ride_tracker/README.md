@@ -1,4 +1,4 @@
-Spring Data Solr Showcase
+Spring Data JDBC Showcase
 =========================
 
 This example shows basic usage concepts of [Spring Data JDBC](http://projects.spring.io/spring-data-jdbc).
@@ -18,3 +18,9 @@ In order to run this example you need:
 3- Basic understanding of Spring Framework
 
 The application is meant to work with postgresql database but you can change it in jdbc-config.xml.
+You can find the database structure inside: src/main/resources/database-postgresql/ride_tracker.sql
+Use pg_dump to import it, below is an exemple:
+
+CREATE DATABASE ride_tracker WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C';
+psql -h localhost -U postgres
+\i 'C:/Users/EAS/Desktop/ride_tracker.sql'
