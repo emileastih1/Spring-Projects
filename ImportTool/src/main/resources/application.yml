@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: PatientBatchLoader
+    batch:
+        job:
+           enabled: false
+server:
+   port: 9999

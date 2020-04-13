@@ -1,0 +1,15 @@
+First we create our packages :
+-controllers (this will hold our API controllers)
+-models (our JPA entities and other persistance information)
+-repositories (DAL: data access layer, our JPA repositories)
+-services ( that will hold our business logic or service based code)
+
+Second we will create our repositories:
+-Normally our repositories are interfaces
+-They are too easy to set up
+-Once our JPA Interfaces are set up, we now have the basic delete , insert and update and bunch of other stuff directly available to us
+
+Thirdly we will create our controllers:
+-You can think about controllers as the servlets
+-For this demo they will be rest based
+ 
