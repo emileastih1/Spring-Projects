@@ -1,11 +1,11 @@
-package com.pluralsight.repository.util;
+package com.ea.ridetracker.repository.util;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.pluralsight.model.Ride;
+import com.ea.ridetracker.model.Ride;
 
 public class RideRowMapper implements RowMapper<Ride> {
 

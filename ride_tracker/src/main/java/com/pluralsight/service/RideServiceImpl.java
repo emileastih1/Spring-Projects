@@ -9,7 +9,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pluralsight.model.Ride;
+import com.ea.ridetracker.model.Ride;
 import com.pluralsight.repository.RideRepository;
 
 @Service("rideService")

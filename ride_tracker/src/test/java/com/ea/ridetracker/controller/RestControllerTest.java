@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package com.ea.ridetracker.controller;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.pluralsight.model.Ride;
+import com.ea.ridetracker.model.Ride;
 
 import org.junit.Test;
 

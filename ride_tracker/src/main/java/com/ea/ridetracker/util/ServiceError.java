@@ -1,4 +1,4 @@
-package com.pluralsight.util;
+package com.ea.ridetracker.util;
 
 public class ServiceError {
 	private int code;

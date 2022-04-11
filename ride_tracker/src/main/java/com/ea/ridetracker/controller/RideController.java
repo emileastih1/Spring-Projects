@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package com.ea.ridetracker.controller;
 
 import java.util.List;
 
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.pluralsight.model.Ride;
+import com.ea.ridetracker.model.Ride;
+import com.ea.ridetracker.util.ServiceError;
 import com.pluralsight.service.RideService;
-import com.pluralsight.util.ServiceError;
 
 @Controller
 public class RideController {

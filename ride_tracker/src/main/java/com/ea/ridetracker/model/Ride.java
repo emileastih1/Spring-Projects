@@ -1,4 +1,4 @@
-package com.pluralsight.model;
+package com.ea.ridetracker.model;
 
 public class Ride {
 

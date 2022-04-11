@@ -19,8 +19,8 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 
-import com.pluralsight.model.Ride;
-import com.pluralsight.repository.util.RideRowMapper;
+import com.ea.ridetracker.model.Ride;
+import com.ea.ridetracker.repository.util.RideRowMapper;
 
 @Repository("rideRepository")
 public class RideRepositoryImpl implements RideRepository {

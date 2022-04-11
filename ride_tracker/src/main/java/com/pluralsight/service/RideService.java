@@ -2,7 +2,7 @@ package com.pluralsight.service;
 
 import java.util.List;
 
-import com.pluralsight.model.Ride;
+import com.ea.ridetracker.model.Ride;
 
 public interface RideService {
 
