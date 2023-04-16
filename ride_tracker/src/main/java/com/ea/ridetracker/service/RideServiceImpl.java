@@ -1,4 +1,4 @@
-package com.pluralsight.service;
+package com.ea.ridetracker.service;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.ea.ridetracker.model.Ride;
-import com.pluralsight.repository.RideRepository;
+import com.ea.ridetracker.repository.RideRepository;
 
 @Service("rideService")
 public class RideServiceImpl implements RideService {

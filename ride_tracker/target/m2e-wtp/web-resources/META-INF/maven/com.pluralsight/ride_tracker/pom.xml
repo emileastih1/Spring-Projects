@@ -7,7 +7,7 @@
 	<artifactId>ride_tracker</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ride_tracker Maven Webapp</name>
+	<name>ride_tracker Spring boot application</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>

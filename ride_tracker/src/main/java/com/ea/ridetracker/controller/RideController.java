@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ea.ridetracker.model.Ride;
+import com.ea.ridetracker.service.RideService;
 import com.ea.ridetracker.util.ServiceError;
-import com.pluralsight.service.RideService;
 
 @Controller
 public class RideController {

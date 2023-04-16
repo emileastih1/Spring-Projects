@@ -1,20 +1,20 @@
-package com.pluralsight.service;
+package com.ea.ridetracker.repository;
 
 import java.util.List;
 
 import com.ea.ridetracker.model.Ride;
 
-public interface RideService {
+public interface RideRepository {
 
 	Ride createRide(Ride ride);
 	
 	List<Ride> getRides();
 
 	Ride getRide(Integer id);
-	
+
 	Ride updateRide(Ride ride);
 
-	void batch();
+	void updateRides(List<Object[]> pairs);
 
 	void deleteRide(Integer id);
 

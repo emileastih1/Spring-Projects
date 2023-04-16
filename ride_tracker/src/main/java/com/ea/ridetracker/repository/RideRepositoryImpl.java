@@ -1,4 +1,4 @@
-package com.pluralsight.repository;
+package com.ea.ridetracker.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
